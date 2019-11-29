@@ -3,4 +3,4 @@ const caesarCipher = (string, shift) => {
         ...string.split('').map(character => ((character.charCodeAt() - 97 + shift) % 26) + 97)
     );
 };
-console.log(caesarCipher("hello", 0));
+console.log(caesarCipher("hello", 5));
